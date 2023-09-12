@@ -1,0 +1,224 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header (Hero) */
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: #ff990098;
+    height: 40px;
+    align-items: center;
+  }
+  nav img{
+    width: auto;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    height: 100vh;
+    background: url('https://www.cars.com/i/large/in/v2/stock_photos/657aca99-15fc-4835-857e-87711e0b25c2/508653d3-5c36-41ef-88a4-d9c7e1993159.png') no-repeat center/cover;
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* font-size: large ; */
+  }
+
+  .hero h1{
+    font-size: 100px;
+    color: #ff9800;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Sections */
+  /* .about-section,
+  .services-section,
+  .contact-section,
+  .testimonials-section {
+  } */
+  .about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .about-section h2{
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    color: #ff9800;
+    text-decoration: underline;
+  }
+  .about-section p{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .services-section{
+    display: flex;
+    position: relative;
+  }
+  .services-section h2{
+    position: absolute;
+    top: 0;
+    color: #ff9800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+  /* Testimonials */
+  .testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .author {
+    font-style: italic;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+.services-section .service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .services-section .service img {
+    width: 350px;
+    height: auto;
+    margin-right: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  .testimonials-section .testimonial-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .testimonials-section .testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    max-width: 400px;
+  }
+
+  .contact-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .contact-section h2{
+    position: absolute;
+    top: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ff9800;
+  }
+
+  .contact-section p{
+    font-size: 24px;
+    font-style: italic;
+  }
+  ul{
+    width: 300px;
+    height: 200px;
+    background: #00000055;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: lowercase;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+  .form-action{
+    display: flex;
+    flex-direction: row;
+  }
+  .form-action input{
+    margin-right: 10px;
+  }
+  input{
+    width: 100%;
+    border-radius: 8px;
+    height: 20px;
+    outline: none;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  /* ... (remaining code) ... */
+  
